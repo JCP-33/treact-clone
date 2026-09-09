@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* 
+
+GENERIC STYLING
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #243e63;
+}
+
+section {
+  padding: 0 32px;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+
+img {
+  width: 100%;
+}
+
+.purple {
+  color: #6415ff;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.no-cursor {
+  cursor: no-drop;
+}
+
+/* 
+
+NAVBAR
+
+*/
+
+nav {
+  display: flex;
+  padding-top: 32px;
+}
+
+.nav__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  padding-bottom: 4px;
+}
+
+.nav__logo--img {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__logo--title {
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 12px;
+  padding-bottom: 2px;
+  letter-spacing: 0.6px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+}
+
+.nav__link {
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 4px;
+  margin: 0 24px;
+  letter-spacing: 0.35px;
+  border-bottom: solid 2px transparent;
+  position: relative;
+}
+
+.login {
+  margin-left: 48px;
+}
+
+.nav__link::after {
+  position: absolute;
+}
+
+.nav__link--primary {
+  margin: 2px 0 0;
+  padding: 10px 32px;
+  border-radius: 9999px;
+  border: none;
+  color: #fff;
+  background-color: #6415ff;
+  line-height: 1.5;
+}
+
+.nav__link--primary:hover {
+  background-color: rgba(80, 17, 204);
+  color: white;
+}
