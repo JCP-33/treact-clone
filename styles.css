@@ -89,6 +89,18 @@ img {
   cursor: no-drop;
 }
 
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 500px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
 /* 
 
 NAVBAR
@@ -339,4 +351,61 @@ FEATURES
     color: rgb(124, 139, 161);
     line-height: 2;
     font-weight: 500;
+}
+
+/* 
+
+QUALITY
+
+*/
+
+
+#quality .row {
+  display: flex;
+}
+
+#quality .btn {
+  margin-top: 32px;
+}
+
+#quality .section__title {
+  line-height: 1.25;
+}
+
+.quality__description,
+.quality__img--wrapper {
+  width: 50%;
+}
+
+.quality__description {
+  margin-right: 64px;
+  max-width: 576px;
+}
+
+.quality__img--wrapper {
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(229, 231, 235);
+  border-radius: 4px;
+  margin: 0 56px;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.quality__img {
+  z-index: 1;
+  flex: none;
+}
+
+.quality__grid {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateX(50%) translateY(50%);
+  color: rgb(100, 21, 255,);
+  fill: rgb(100, 21, 255);
 }
